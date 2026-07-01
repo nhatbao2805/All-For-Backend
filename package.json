@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-solid-patterns",
+  "version": "1.0.0",
+  "description": "Environment for learning Node.js, SOLID principles and Design Patterns",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test:srp": "node src/solid/srp/bad.js && node src/solid/srp/good.js",
+    "test:ocp": "node src/solid/ocp/bad.js && node src/solid/ocp/good.js",
+    "test:lsp": "node src/solid/lsp/bad.js && node src/solid/lsp/good.js",
+    "test:isp": "node src/solid/isp/bad.js && node src/solid/isp/good.js",
+    "test:dip": "node src/solid/dip/bad.js && node src/solid/dip/good.js"
+  },
+  "keywords": [
+    "nodejs",
+    "solid",
+    "design-patterns"
+  ],
+  "author": "",
+  "license": "ISC"
+}
